@@ -1,7 +1,7 @@
 // https://www.conventionalcommits.org/en/v1.0.0/#summary
 // https://commitlint.js.org/#/reference-rules
+
 module.exports = {
-  parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [2, 'always'],
