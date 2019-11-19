@@ -1,0 +1,32 @@
+{
+  "name": "@dreamistlabs/config-commitlint",
+  "version": "0.0.1",
+  "description": "Shareable configuration for conventional changelog commitlint",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamistlabs/config-commitlint.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "conventional",
+    "changelog",
+    "lint"
+  ],
+  "author": "Johnny Hu <johnny@dreamistlabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreamistlabs/config-commitlint/issues"
+  },
+  "homepage": "https://github.com/dreamistlabs/config-commitlint#readme"
+}
