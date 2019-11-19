@@ -1,6 +1,6 @@
 {
   "name": "@dreamistlabs/config-commitlint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Shareable configuration for conventional changelog commitlint",
   "main": "index.js",
   "files": [
