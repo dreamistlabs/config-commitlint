@@ -7,7 +7,7 @@ module.exports = {
     'footer-leading-blank': [2, 'always'],
     'header-case': [2, 'always', 'lower-case'],
     'header-max-length': [2, 'always', 72],
-    'scope-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],,
+    'scope-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
     'scope-empty': [2, 'never'],
     // 'scope-enum': [2, 'always', []],
     'subject-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
