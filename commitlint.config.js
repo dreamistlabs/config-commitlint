@@ -8,18 +8,18 @@
 
 module.exports = {
   rules: {
-    "body-case": [2, "always", ["lower-case", "sentence-case"]],
+    "body-case": [2, "always", "sentence-case"],
     "body-full-stop": [2, "always", "."],
     "body-leading-blank": [2, "always"],
     "footer-leading-blank": [2, "always"],
     "header-case": [2, "always", "sentence-case"],
-    "header-max-length": [2, "never", 72],
+    "header-max-length": [2, "never", 72], // off
     "scope-empty": [2, "always"],
-    "subject-case": [2, "always", ["sentence-case"]],
-    "subject-empty": [2, "never"],
-    "subject-full-stop": [2, "never", "."],
-    "type-case": [2, "always", ["start-case"]],
-    "type-empty": [2, "never"],
+    "subject-case": [2, "always", "sentence-case"],
+    "subject-empty": [2, "never"], // off
+    "subject-full-stop": [2, "never", "."], // off
+    "type-case": [2, "always", "start-case"],
+    "type-empty": [2, "never"], // off
     "type-enum": [
       2,
       "always",
