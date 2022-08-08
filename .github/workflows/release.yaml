@@ -1,8 +1,8 @@
 name: dlabs-release-workflow
 
-on: # 1st of every month, just before midnight UTC (~ 5pm PST)
+on: # 15th of every month, just before midnight UTC (~ 5pm PST)
   schedule:
-    - cron: '59 23 15 */1 *'
+    - cron: "59 23 15 */1 *"
 
 jobs:
   dlabs-release-workflow:
