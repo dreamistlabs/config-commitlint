@@ -13,13 +13,13 @@ module.exports = {
     "body-leading-blank": [2, "always"],
     "footer-leading-blank": [2, "always"],
     "header-case": [2, "always", "sentence-case"],
-    "header-max-length": [2, "never", 72], // off
+    "header-max-length": [0, "always"], // off
     "scope-empty": [2, "always"],
     "subject-case": [2, "always", "sentence-case"],
-    "subject-empty": [2, "never"], // off
-    "subject-full-stop": [2, "never", "."], // off
+    "subject-empty": [0, "always"], // off
+    "subject-full-stop": [0, "always"], // off
     "type-case": [2, "always", "start-case"],
-    "type-empty": [2, "never"], // off
+    "type-empty": [0, "always"], // off
     "type-enum": [
       2,
       "always",
